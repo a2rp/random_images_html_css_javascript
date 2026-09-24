@@ -1,20 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>a2rp: Random Images</title>
-        <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
-    </head>
-    <body>
-        <div class="container">
-            <div class="heading">a2rp: Random Images</div>
-
-            <hr />
-            <div class="imageContainer"></div>
-            <hr />
-            <div class="addImageButton">Click to add images</div>
-        </div>
-    </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#07111f" />
+<meta name="description" content="Generate a small gallery of random Picsum images with one click." />
+<meta property="og:title" content="Random Images" />
+<meta property="og:description" content="Generate a small gallery of random Picsum images with one click." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://a2rp.github.io/random_images_html_css_javascript/" />
+<meta property="og:image" content="https://a2rp.github.io/random_images_html_css_javascript/preview.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://a2rp.github.io/random_images_html_css_javascript/preview.png" />
+<link rel="icon" href="public/favicon.ico" />
+<link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
+<title>Random Images | Ashish Ranjan</title>
+</head>
+<body>
+<header class="siteHeader"><div class="headerInner">
+<a class="brand" href="#top"><img src="public/logo.png" alt="" /><span><small>IMAGE PLAYGROUND</small><strong>Random Images</strong></span></a>
+<a class="sourceLink" href="https://github.com/a2rp/random_images_html_css_javascript" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">⌘</span> Source</a>
+</div></header>
+<main class="pageContent" id="top">
+<section class="intro"><p class="eyebrow">PICSUM GALLERY</p><h1>Build a gallery<br /><span>one click at a time.</span></h1><p class="introText">Pull random images from Picsum and collect a small visual reference board for your next idea.</p></section>
+<section class="galleryTool" aria-labelledby="galleryTitle">
+<div class="toolTop"><div><p class="eyebrow">YOUR COLLECTION</p><h2 id="galleryTitle"><span class="imageCount">0</span> images added</h2></div><button class="addImageButton" type="button"><span aria-hidden="true">✦</span> Add image</button></div>
+<div class="imageContainer" aria-live="polite"></div>
+<div class="emptyState">Your generated images will appear here.</div>
+</section>
+</main>
+<footer class="siteFooter">
+<p>Copyright &copy; <span class="currentYear"></span> <a href="https://www.ashishranjan.net" target="_blank" rel="noopener noreferrer">Ashish Ranjan</a></p>
+<div class="footerLinks" aria-label="Social and support links">
+<a href="https://www.ashishranjan.net/" aria-label="Portfolio" title="Portfolio" target="_blank" rel="noopener noreferrer">⌂</a><a href="https://github.com/a2rp" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer">◉</a><a href="https://codepen.io/ash1198" aria-label="CodePen" title="CodePen" target="_blank" rel="noopener noreferrer">◌</a><a href="https://www.linkedin.com/in/aashishranjan" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">in</a><a href="https://www.facebook.com/theash.ashish/" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener noreferrer">f</a><a href="https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1" aria-label="YouTube" title="YouTube" target="_blank" rel="noopener noreferrer">▶</a><a href="https://a2rp-donation-page.netlify.app/" aria-label="Support" title="Support" target="_blank" rel="noopener noreferrer">♡</a><a href="https://buymeacoffee.com/a2rp" aria-label="Buy Me a Coffee" title="Buy Me a Coffee" target="_blank" rel="noopener noreferrer">☕</a><a href="https://patreon.com/a2rp" aria-label="Patreon" title="Patreon" target="_blank" rel="noopener noreferrer">★</a>
+</div></footer>
+<button class="scrollTop" type="button" aria-label="Scroll to top">↑</button>
+</body>
 </html>
